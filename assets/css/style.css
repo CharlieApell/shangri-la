@@ -10,6 +10,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-family: 'Montez', cursive;
     font-weight: 300;
+    color: darkgoldenrod;
 }
 
 /* Headings and logo */
@@ -32,6 +33,10 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
+#menu, #logo {
+  
+}
+
 #menu li {
     float: right;
     list-style-type: none;
@@ -40,4 +45,6 @@ h1, h2 {
 
 #menu a {
     text-decoration: none;
+    color: inherit;
+    position: 
 }
