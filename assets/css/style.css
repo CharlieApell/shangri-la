@@ -16,7 +16,7 @@ body {
 
 /* Headings and logo */
 
-h1, h2 {
+h1 {
     font-family: Montez, Arial;
     font-style: italic;
     color: darkgoldenrod;
@@ -24,7 +24,9 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 500%;
+    font-size: 450%;
+    margin-left: 30px;
+    margin-bottom: 10px;
 }
 
 /* menus and nav-links */
@@ -33,6 +35,8 @@ h1, h2 {
     font-family: 'Lato', sans-serif;
     font-size: 120%;
     letter-spacing: 4px;
+    margin-right: 20px;
+
 }
 
 #menu, #logo {
@@ -62,13 +66,53 @@ h1, h2 {
 /* banner-photo */
 
 #meditate-outer {
-    height: 600px;
+    height: 500px;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color: #fff;
 }
 
 #meditate-image {
-    height: 600px;
+    height: 500px;
     width: 100%;
     background: url(../images/meditate2.png) no-repeat center center;
+
+
+animation-name: meditate-zoom;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+}
+
+@keyframes meditate-zoom {
+from{
+    transform: scale(1);
+}
+to{
+    transform: scale(1.1);
+}
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Lato, Arial;
+    letter-spacing: 4px;
+    text-align: center center;
+    
+    height: 70px;
+    width: 350px;
+    
+    padding: 20px;
+    
+    background-color: darkgoldenrod;
+
+    bottom: 50px;
+    right: 150px;
+
+    position: absolute;
+
 }
