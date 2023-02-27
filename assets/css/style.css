@@ -18,11 +18,12 @@ body {
 h1, h2 {
     font-family: Montez, Arial;
     font-style: italic;
+    color: darkgoldenrod;
 }
 
 #logo {
     float: left;
-    font-size: 300%;
+    font-size: 500%;
 }
 
 /* menus and nav-links */
@@ -47,4 +48,12 @@ h1, h2 {
     text-decoration: none;
     color: inherit;
     position: 
+}
+
+#menu a:hover {
+    border-bottom: 1px solid;
+}
+
+.active {
+    border-bottom: 1px solid;
 }
