@@ -34,7 +34,7 @@ h1, h2 {
 }
 
 #menu, #logo {
-  
+    line-height: 80px;
 }
 
 #menu li {
