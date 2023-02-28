@@ -118,7 +118,7 @@ to{
 }
 
 #upcomming {
-    height: 600px;
+    height: 300px;
     font-family: Lato, Arial;
 }
 
@@ -146,6 +146,14 @@ to{
     width: 40%;
     margin: 0 auto;
     background-color: darkgoldenrod;
+}
+
+#buddah-img {
+    height: 400px;
+    font-family: Lato, Arial;
+    background: url(../images/buddah.png);
+    background-size: 10%;
+    opacity: 60%;
 }
 
 footer {
