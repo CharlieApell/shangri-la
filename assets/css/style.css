@@ -141,7 +141,6 @@ to{
     height: 600px;
     padding: 10px;
     margin: 0 auto;
-    background: 
 }
 
 #left-why {
@@ -191,6 +190,26 @@ footer {
 .social-networks i {
     font-size: 140%;
     margin: 1px;
-    padding: 5%;
+    padding: 10px;
     color: #3a3a3a;
+}
+
+
+#footer-center {
+    font-family: Lato, Arial;
+    height: 150px;
+    width: 25%;
+    margin: 0 auto;
+}
+
+#footer-right {
+    height: 150px;
+    width: 25%;
+    float: right;
+}
+
+#footer-left {
+    height: 150px;
+    width: 50%;
+    float: left;
 }
