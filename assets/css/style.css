@@ -128,24 +128,44 @@ to{
     font-size: 280%;
 }
 
-#left-about {
- 
-    width: 25%;
+#center-about {
+    font-size: 130%;
+    color: white;
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+    background-color: darkgoldenrod;
+}
+
+#why-why {
+    height: 600px;
+    padding: 10px;
+    margin: 0 auto;
+    background: 
+}
+
+#left-why {
+    height: 600px;
+    color: darkolivegreen;
+    padding: 20px;
+    width: 33%;
     float: left;
 }
 
-#right-about {
-    width: 25%;
+#right-why {
+    height: 600px;
+    color: darkolivegreen;
+    padding: 20px;
+    width: 33%;
     float: right;
 }
 
-#center-about {
-    font-size: 120%;
-    color: white;
+#center-why {
+    height: 600px;
+    color: darkolivegreen;
     padding: 20px;
-    width: 40%;
+    width: 33%;
     margin: 0 auto;
-    background-color: darkgoldenrod;
 }
 
 #buddah-img {
@@ -169,8 +189,8 @@ footer {
 }
 
 .social-networks i {
-    font-size: 160%;
-    margin: 1%;
+    font-size: 140%;
+    margin: 1px;
     padding: 5%;
     color: #3a3a3a;
 }
