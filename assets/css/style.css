@@ -188,28 +188,41 @@ footer {
 }
 
 .social-networks i {
-    font-size: 140%;
+    font-size: 200%;
     margin: 1px;
     padding: 10px;
     color: #3a3a3a;
 }
 
+div {
+    display: block;
+}
 
+.footer-align {
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    width: 100%;
+}
 #footer-center {
     font-family: Lato, Arial;
-    height: 150px;
+    font-size: 150%;
+    height: 100px;
     width: 25%;
     margin: 0 auto;
+    padding-left: 10px;
+    padding-top: 50px;
 }
 
 #footer-right {
-    height: 150px;
+    height: 100px;
     width: 25%;
-    float: right;
+    padding-top: 50px;
+    padding-left: 10px;
 }
 
 #footer-left {
-    height: 150px;
+    height: 100px;
     width: 50%;
-    float: left;
 }
