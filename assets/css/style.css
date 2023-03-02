@@ -16,19 +16,20 @@ body {
 
 /* Headings and logo */
 
-h1 {
-    font-family: Montez, Arial;
-    font-style: italic;
-    color: darkgoldenrod;
-}
-
 #logo {
     float: left;
     font-size: 450%;
     margin-left: 30px;
     margin-bottom: 10px;
+    font-family: Montez, Arial;
+    font-style: italic;
+    color: darkgoldenrod;
 }
 
+.rubrik {
+    font-family: Lato, Arial;
+    text-decoration: underline;
+}
 /* menus and nav-links */
 
 #menu {
@@ -118,7 +119,8 @@ to{
 }
 
 #upcomming {
-    height: 300px;
+    padding: 20px;
+    height: 200px;
     font-family: Lato, Arial;
 }
 
@@ -191,7 +193,7 @@ footer {
     font-size: 200%;
     margin: 1px;
     padding: 10px;
-    color: #3a3a3a;
+    color: darkgoldenrod;
 }
 
 div {
@@ -207,7 +209,6 @@ div {
 }
 #footer-center {
     font-family: Lato, Arial;
-    font-size: 150%;
     height: 100px;
     width: 25%;
     margin: 0 auto;
