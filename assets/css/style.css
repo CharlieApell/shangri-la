@@ -227,3 +227,15 @@ div {
     height: 100px;
     width: 50%;
 }
+
+/* contact sheet */
+
+.contact-section {
+    background-image: url(../images/mindfulness.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+    min-height: 56.25rem;
+}
