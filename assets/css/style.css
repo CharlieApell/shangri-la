@@ -118,19 +118,13 @@ to{
 
 }
 
-#upcomming {
+#section-info {
     padding: 20px;
     height: 200px;
     font-family: Lato, Arial;
 }
 
-#welcome {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 280%;
-}
-
-#center-about {
+#center-info {
     font-size: 130%;
     color: white;
     padding: 20px;
@@ -139,33 +133,31 @@ to{
     background-color: darkgoldenrod;
 }
 
-#why-why {
-    height: 600px;
+#section-about {
+    height: 300px;
     padding: 10px;
     margin: 0 auto;
 }
 
-#left-why {
-    height: 600px;
+#left-about {
+    height: 300px;
     background-color: darkolivegreen;
-    padding: 20px;
-    width: 33%;
+    width: 40%;
     float: left;
 }
 
-#right-why {
-    height: 600px;
-    color: darkolivegreen;
-    padding: 20px;
-    width: 33%;
+#right-about {
+    height: 300px;
+    background-color: red;
+    width: 40%;
     float: right;
 }
 
-#center-why {
-    height: 600px;
-    color: darkolivegreen;
+#center-about {
+    height: 300px;
+    background-color: blueviolet;
     padding: 20px;
-    width: 33%;
+    width: 25%;
     margin: 0 auto;
 }
 
@@ -233,6 +225,7 @@ div {
 fieldset {
     display: block;
     text-align: center;
+    padding: 10px;
 }
 
 div{
@@ -241,7 +234,7 @@ div{
 }
 
 form{
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 #contact-section {
@@ -264,7 +257,6 @@ form{
     background-color: rgba(184, 134, 11, 0.5);
     border-radius: 10px;
     padding: 20px;
-    height: 450px;
     width: 33%;
 }
 
