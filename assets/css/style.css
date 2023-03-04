@@ -64,7 +64,7 @@ body {
     border-bottom: 1px solid;
 }
 
-/* banner-photo */
+/* hero-photo */
 
 #meditate-outer {
     height: 600px;
@@ -133,41 +133,50 @@ to{
     background-color: darkgoldenrod;
 }
 
+/* the about us page */
+
+div{
+    height: auto; 
+    margin: 0 auto; 
+}
+
 #section-about {
-    height: 300px;
-    padding: 10px;
-    margin: 0 auto;
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
 }
 
-#left-about {
-    height: 300px;
-    background-color: darkolivegreen;
-    width: 40%;
-    float: left;
+#cover-text, #cover-text h2 {
+    color: #fff;
 }
 
-#right-about {
-    height: 300px;
-    background-color: red;
-    width: 40%;
-    float: right;
+#about-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/about.jpg) no-repeat center center;
+
 }
 
-#center-about {
-    height: 300px;
-    background-color: blueviolet;
-    padding: 20px;
-    width: 25%;
-    margin: 0 auto;
-}
-
-#buddah-img {
-    height: 400px;
+#about-text {
+    font-size: 130%;
     font-family: Lato, Arial;
-    background: url(../images/buddah.png);
-    background-size: 10%;
-    opacity: 60%;
+    letter-spacing: 4px;
+    text-align: center;
+    
+    height: 70px;
+    width: 350px;
+    
+    padding: 20px;
+    
+    background-color:rgba(184, 134, 11, 0.7);
+    margin: 0 auto;
+
+    position: absolute;
+
 }
+/* footer */
 
 footer {
     height: 150px;
@@ -220,7 +229,7 @@ div {
     width: 50%;
 }
 
-/* contact sheet */
+/* contact form */
 
 fieldset {
     display: block;
@@ -229,8 +238,8 @@ fieldset {
 }
 
 div{
-    height:auto; 
-    margin:0 auto; 
+    height: auto; 
+    margin: 0 auto; 
 }
 
 form{
