@@ -118,6 +118,8 @@ to{
 
 }
 
+/* Welcome text */
+
 #section-info {
     padding: 20px;
     height: 200px;
@@ -144,38 +146,27 @@ div{
     height: 600px;
     width: 100%;
     overflow: hidden;
-
-    position: relative;
 }
 
-#cover-text, #cover-text h2 {
+#about-text {
     color: #fff;
+}
+
+#center-about {
+    font-size: 130%;
+    color: white;
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+    background-color: darkgoldenrod;
 }
 
 #about-image {
     height: 600px;
     width: 100%;
     background: url(../images/about.jpg) no-repeat center center;
-
 }
 
-#about-text {
-    font-size: 130%;
-    font-family: Lato, Arial;
-    letter-spacing: 4px;
-    text-align: center;
-    
-    height: 70px;
-    width: 350px;
-    
-    padding: 20px;
-    
-    background-color:rgba(184, 134, 11, 0.7);
-    margin: 0 auto;
-
-    position: absolute;
-
-}
 /* footer */
 
 footer {
