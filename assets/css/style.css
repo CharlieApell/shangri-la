@@ -294,4 +294,9 @@ textarea {
     clear: both;
     line-height: 0;
     column-count: 4;
+    column-gap: 0;
+}
+
+#gallery > img {
+    width: 100%;
 }
