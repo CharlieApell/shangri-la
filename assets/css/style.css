@@ -287,3 +287,11 @@ textarea {
 .submit-button:hover {
     background-color: darkgoldenrod;
 }
+
+/* Gallery */
+
+#gallery {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+}
