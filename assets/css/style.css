@@ -222,10 +222,10 @@ div {
 .footer-align {
     align-items: center;
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-around;
+    flex-direction: row;
     width: 100%;
 }
+
 #footer-center {
     font-family: Lato, Arial;
     color: #fff;
@@ -283,14 +283,13 @@ form{
     font-weight: 600;
     font-size: 110%;
     text-align: left;
-    background-color: rgba(184, 134, 11, 0.5);
+    background-color: rgba(184, 134, 11, 0.8);
     border-radius: 10px;
     padding: 20px;
-    width: 33%;
+    width: 400px;
 }
 
-.text-input,
-textarea {
+.text-input, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -328,4 +327,55 @@ textarea {
 
 #gallery > img {
     width: 100%;
+}
+
+/* Media Queries */
+
+/* For medium screens sizes from 950px wide and down */
+
+@media screen and (max-width: 950px) {
+
+hr {
+    display: none;
+}
+
+#menu {
+    clear: left;
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+#cover-text {
+    left: 0;
+}
+
+#gallery {
+    column-count: 2;
+}
+
+.contact-panel {
+    background-color: rgba(184, 134, 11, 0.8);
+    clear: both;
+}
+
+}
+@media screen and (max-width: 700px) {
+
+    #contact-section {
+        background: url(../images/yoga7.jpg) no-repeat center center;
+    
+    }
+    .contact-panel {
+        background-color: rgba(184, 134, 11, 0.8);
+        clear: both;
+        width: 300px;
+    }
+    #footer > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
 }
