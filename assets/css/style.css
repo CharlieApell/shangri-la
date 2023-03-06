@@ -26,10 +26,6 @@ body {
     color: darkgoldenrod;
 }
 
-.rubrik {
-    font-family: Lato, Arial;
-    text-decoration: underline;
-}
 /* menus and nav-links */
 
 #menu {
@@ -53,7 +49,6 @@ body {
 #menu a {
     text-decoration: none;
     color: inherit;
-    position: 
 }
 
 #menu a:hover {
@@ -123,7 +118,6 @@ to{
     font-weight: bolder;
     text-decoration: none;
     color: inherit;
-    position: 
 }
 
 #cover-text a:hover {
@@ -170,7 +164,6 @@ div{
     font-weight: bolder;
     text-decoration: none;
     color: inherit;
-    position: 
 }
 
 #section-about a:hover {
@@ -203,6 +196,10 @@ footer {
     height: 150px;
 }
 
+.heading-find-us {
+    font-family: Lato, Arial;
+}
+
 .social-networks {
     text-align: center;
 }
@@ -215,7 +212,7 @@ footer {
     font-size: 200%;
     margin: 1px;
     padding: 10px;
-    color: darkgoldenrod;
+    color: #fff;
 }
 
 div {
@@ -231,6 +228,7 @@ div {
 }
 #footer-center {
     font-family: Lato, Arial;
+    color: #fff;
     height: 100px;
     width: 25%;
     margin: 0 auto;
@@ -240,6 +238,7 @@ div {
 
 #footer-right {
     height: 100px;
+    color: #fff;
     width: 25%;
     padding-top: 50px;
     padding-left: 10px;
