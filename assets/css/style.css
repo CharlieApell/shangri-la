@@ -61,11 +61,10 @@ body {
 
 /* hero-photo */
 
-#meditate-outer {
+#hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
-
     position: relative;
 }
 
@@ -73,24 +72,23 @@ body {
     color: #fff;
 }
 
-#meditate-image {
+#hero-image {
     height: 600px;
     width: 100%;
     background: url(../images/meditate2.png) no-repeat center center;
 
-
-animation-name: meditate-zoom;
-animation-duration: 5s;
-animation-fill-mode: forwards;
+    animation-name: meditate-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
 }
 
-@keyframes meditate-zoom {
-from{
+    @keyframes meditate-zoom {
+    from{
     transform: scale(1);
-}
-to{
+    }
+    to{
     transform: scale(1.1);
-}
+    }
 }
 
 #cover-text {
@@ -98,19 +96,13 @@ to{
     font-family: Lato, Arial;
     letter-spacing: 4px;
     text-align: center center;
-    
     height: 70px;
     width: 350px;
-    
     padding: 20px;
-    
     background-color:rgba(184, 134, 11, 0.7);
-
     bottom: 50px;
     right: 150px;
-
     position: absolute;
-
 }
 
 #cover-text a {
@@ -128,7 +120,7 @@ to{
     border-bottom: 1px solid;
 }
 
-/* Welcome text */
+/* About us */
 
 #section-info {
     padding: 20px;
@@ -145,9 +137,7 @@ to{
     background-color: darkgoldenrod;
 }
 
-/* the about us page */
-
-div{
+#section-about > div {
     height: auto; 
     margin: 0 auto;
     padding: 40px;
@@ -194,10 +184,12 @@ div{
 
 footer {
     height: 150px;
-}
-
-.heading-find-us {
     font-family: Lato, Arial;
+    background-color: darkgoldenrod;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 
 .social-networks {
@@ -215,38 +207,29 @@ footer {
     color: #fff;
 }
 
-div {
-    display: block;
-}
-
-.footer-align {
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
-
 #footer-center {
     font-family: Lato, Arial;
     color: #fff;
-    height: 100px;
-    width: 25%;
+    padding: 5px;
+    height: 100%;
+    width: 33%;
     margin: 0 auto;
-    padding-left: 10px;
-    padding-top: 50px;
 }
 
 #footer-right {
     height: 100px;
+    padding: 5px;
     color: #fff;
-    width: 25%;
-    padding-top: 50px;
-    padding-left: 10px;
+    width: 33%;
 }
 
-#footer-left {
-    height: 100px;
-    width: 50%;
+#footer-map {
+    height: 100%;
+    width: 33%;
+}
+
+#map {
+    width: 100%;
 }
 
 /* contact form */
@@ -257,19 +240,18 @@ fieldset {
     padding: 10px;
 }
 
-div{
+fieldset > div {
     height: auto; 
     margin: 0 auto; 
+    
 }
 
-form{
+form {
     margin: 0 auto;
 }
 
 #contact-section {
-    background-image: url(../images/meditate.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    background: url(../images/meditate.jpg) no-repeat center center;
     width: 100%;
     overflow: hidden;
     min-height: 56.25rem;
@@ -372,7 +354,7 @@ hr {
         clear: both;
         width: 300px;
     }
-    #footer > div {
+    #footer {
         width: 100%;
         clear: both;
         height: 150px;
