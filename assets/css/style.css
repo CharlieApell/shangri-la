@@ -190,7 +190,6 @@ footer {
 
 .column {
     float: left;
-    padding: 10px;
 }
 
 .row:after {
@@ -200,25 +199,24 @@ footer {
 }
 
 #footer-center {
-    text-align: right;
+    text-align: left;
     font-family: Lato, Arial;
     font-size: 140%;
     color: #fff;
-    padding: 5px;
+    padding-left: 10px;
     height: 100%;
     width: 20%;
     margin: 0 auto;
 }
 
 #footer-right {
+    float: right;
     height: 100%;
-    padding: 5px;
     color: #fff;
     width: 20%;
 }
 
 #footer-map {
-    float: left;
     height: 100%;
     width: 50%;
 }
@@ -229,13 +227,8 @@ footer {
 
 .social-networks i {
     font-size: 200%;
-    margin: 1px;
-    padding: 10px;
+    margin: 10px;
     color: #fff;
-}
-
-.social-networks {
-    text-align: center;
 }
 
 .social-networks > li {
@@ -351,6 +344,11 @@ hr {
     clear: both;
 }
 
+#section-about {
+    overflow-y: scroll;
+    padding-bottom: 20px;
+}
+
 }
 @media screen and (max-width: 700px) {
 
@@ -383,10 +381,15 @@ hr {
         padding: 0;
     }
 
+    #footer-right {
+        float: none;
+    }
+
     .social-networks {
         display: flex;
         flex-direction: row;
-        letter-spacing: 25px;
+        letter-spacing: 27px;
+        width: 100%;
     }
 
     #footer-map {
