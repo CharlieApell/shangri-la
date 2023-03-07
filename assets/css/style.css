@@ -11,7 +11,7 @@ body {
     font-family: 'Montez', cursive;
     font-weight: 300;
     color: darkgoldenrod;
-    background-color: rgb(250, 233, 212);
+    background-color: rgb(255, 245, 232);
 }
 
 /* Headings and logo */
@@ -147,6 +147,8 @@ body {
     width: 100%;
     overflow: hidden;
     padding-top: 50px;
+    overflow-y: scroll;
+    padding-bottom: 20px;
 }
 
 #section-about a {
