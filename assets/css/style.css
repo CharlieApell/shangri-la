@@ -203,7 +203,8 @@ footer {
     font-family: Lato, Arial;
     font-size: 140%;
     color: #fff;
-    padding-left: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
     height: 100%;
     width: 20%;
     margin: 0 auto;
@@ -225,8 +226,13 @@ footer {
     width: 100%;
 }
 
+.social-networks {
+    line-height: 80px;
+    text-align: center;
+}
+
 .social-networks i {
-    font-size: 200%;
+    font-size: 180%;
     margin: 10px;
     color: #fff;
 }
