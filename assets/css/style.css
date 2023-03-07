@@ -355,7 +355,8 @@ hr {
     #menu {
         clear: left;
         float: left;
-        margin-left: 30px;
+        margin-top: 10px;
+        margin-left: 20px;
         margin-bottom: 20px;
         line-height: 25px;
         display: flex;
@@ -386,9 +387,10 @@ hr {
     }
 
     .social-networks {
+        text-align: center;
         display: flex;
         flex-direction: row;
-        letter-spacing: 27px;
+        letter-spacing: 20px;
         width: 100%;
     }
 
