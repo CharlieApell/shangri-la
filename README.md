@@ -81,6 +81,7 @@ I chose to work with colors that are earthy for my website because "mother natur
 ### Typography
 
 Google Fonts was used to import the chosen fonts for use in the site.
+Montez for the logo and Latos for everything else.
 
 ![Lato](documentation/lato.png)
 
@@ -103,15 +104,36 @@ so I settled for a simpler approach and placed the menu below the logo when brow
 
 ## Features
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/TheQuizArms#Features)
+The website consists of five pages, with four pages available through the navigation menu (home page, about us page, gallery page and contact page). The fifth page, which provides information about Kids Yoga, can be accessed from either the schedule on the home page or the about us page.
 
-This section can be used to explain what pages your site is made up of.
+## General features on each page
 
-### General features on each page
+### All Pages on the website have:
+* A responsive navigation bar at the top which allows the user to navigate through the site. To the left of the navigation bar is the text Shangri-La. To the right of the navigation bar are the links to the websites pages (home, about us, gallery and contact). When viewing with mobile devices the navigation links change to a smaller text placed under the text "Shangri-La", from the beginning i wanted a burger icon but uunfortunately i was running out of time.
+* A footer containg the adress, a map and links to Shangri-La's social media pages.
 
-If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
+### Home page
+* Hero image from unsplash with a zoom animation to capture the users attention
+* A cover text with a link in the name "Shangri-La" that takes you to the "About us"
+* A schedule for upcomming yoga events, on sunday funday there's link to the "Kids Yoga"-page
 
-I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
+### About us Page
+* A text about this fictional yoga place with a link to "Contact" and "Kids Yoga".
+* Stock photo from unsplash
+
+### Gallery
+* Stock photos from Unsplash with association to Yoga
+* Stock video from Pixabay
+
+### Contact
+* Contact form
+* Text area for questions or subjects
+
+### Kids Yoga with Yoga the Bear
+* Stock photo on a person in Bear costume
+* A text about Yoga classes for kids with "Yoga the Bear"
+* Link to Contact
+
 
 ### Future Implementations
 

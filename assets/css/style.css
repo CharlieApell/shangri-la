@@ -162,6 +162,67 @@ body {
     border-bottom: 1px solid;
 }
 
+/* footer */
+
+footer {
+    height: 100%;
+    font-family: Lato, Arial;
+    background-color: darkgoldenrod;
+    width: 100%;
+}
+
+.column {
+    float: left;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#footer-center {
+    text-align: left;
+    font-family: Lato, Arial;
+    font-size: 140%;
+    color: #fff;
+    padding-left: 20px;
+    padding-top: 10px;
+    height: 100%;
+    width: 20%;
+    margin: 0 auto;
+}
+
+#footer-right {
+    float: right;
+    height: 100%;
+    color: #fff;
+    width: 20%;
+}
+
+#footer-map {
+    height: 100%;
+    width: 50%;
+}
+
+#map {
+    width: 100%;
+}
+
+.social-networks {
+    line-height: 80px;
+    text-align: center;
+}
+
+.social-networks i {
+    font-size: 180%;
+    margin: 10px;
+    color: #fff;
+}
+
+.social-networks > li {
+    display: inline;
+}
 
 /* About us */
 
@@ -282,68 +343,6 @@ body {
     height: 800px;
     width: 100%;
     background: url(../images/Yogabear.jpg) no-repeat center center;
-}
-
-/* footer */
-
-footer {
-    height: 100%;
-    font-family: Lato, Arial;
-    background-color: darkgoldenrod;
-    width: 100%;
-}
-
-.column {
-    float: left;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-#footer-center {
-    text-align: left;
-    font-family: Lato, Arial;
-    font-size: 140%;
-    color: #fff;
-    padding-left: 20px;
-    padding-top: 10px;
-    height: 100%;
-    width: 20%;
-    margin: 0 auto;
-}
-
-#footer-right {
-    float: right;
-    height: 100%;
-    color: #fff;
-    width: 20%;
-}
-
-#footer-map {
-    height: 100%;
-    width: 50%;
-}
-
-#map {
-    width: 100%;
-}
-
-.social-networks {
-    line-height: 80px;
-    text-align: center;
-}
-
-.social-networks i {
-    font-size: 180%;
-    margin: 10px;
-    color: #fff;
-}
-
-.social-networks > li {
-    display: inline;
 }
 
 /* contact form */
