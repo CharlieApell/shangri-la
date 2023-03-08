@@ -321,6 +321,28 @@ form {
     width: 100%;
 }
 
+.video-box {
+    max-width: 130rem;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.video-box video {
+    width: 100%;
+    height: auto;
+}
+
+video {
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.container {
+    max-width: 130em;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}
 /* Media Queries */
 
 /* For medium screens sizes from 950px wide and down */
