@@ -97,6 +97,7 @@ I have used stock photos from https://unsplash.com/ from different yoga places a
 ### Wireframes
 
 ![Wireframe pp1](documentation/Wireframe-pp1.png)
+
 I wanted to do a scroll down menu when browsing on either a tablet or phone but i didn't have the time to make it work,
 so I settled for a simpler approach and placed the menu below the logo when browsing on a phone or tablet.
 
