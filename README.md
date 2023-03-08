@@ -29,7 +29,6 @@ Visit the deployed site: [Shangri-La](https://charlieapell.github.io/shangri-la/
   * [Languages Used](#languages-used)
   * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 
-
 * [Deployment](#deployment)
 
 * [Testing](#testing)
