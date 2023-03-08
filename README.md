@@ -4,7 +4,7 @@ Shangri-La is an ficitonal yoga place, the website is designed to be responsive,
 
 ![Shangri-La on different devices](documentation/devices.png)
 
-Add a link to the live site here, for Milestone 1 this will be the GitHub Pages Link from when you deployed the site.
+Visit the deployed site: [Shangri-La](https://charlieapell.github.io/shangri-la/index.html)
 
 
 ---
@@ -48,7 +48,7 @@ Add a link to the live site here, for Milestone 1 this will be the GitHub Pages 
 ## User Experience (UX)
 ### Initial Discussion
 
-Shangri-La is a yoga place in Norrköping, Sweden. The website is built so that the user can read about the yoga place on different devices and hopefully become interested and send an email about questions or membership.
+Shangri-La is a fictional yoga place in Norrköping, Sweden. The website is built so that the user can read about the yoga place on different devices and hopefully become interested and send an email about questions or membership.
 
 ### User Stories
 
@@ -69,8 +69,6 @@ Shangri-La is a yoga place in Norrköping, Sweden. The website is built so that 
 * I want to know when the next yoga lesson is.
 
 ## Design
-
-👩🏻‍💻 View an example of a completed design section [here](https://github.com/kera-cudmore/earth-day-hackathon-2022#Design)
 
 ### Colour Scheme
 
@@ -150,8 +148,6 @@ In order to make the website as accessible-friendly as possible, I have been war
 
 ## Technologies Used
 
-👩🏻‍💻 View an example of a completed Technologies Used section [here](https://github.com/kera-cudmore/Bully-Book-Club#Technologies-Used)
-
 ### Languages Used
 
 HTML and CSS were used to create this website.
@@ -174,7 +170,9 @@ HTML and CSS were used to create this website.
 
 * Am I Responsive? To show the website image on a range of devices.
 
-## Deployment
+## Deployment & Local Development
+
+### Deployment
 
 The live website was deployed using Github Pages. Follow the instructions below to achieve this:
 
@@ -186,40 +184,48 @@ The live website was deployed using Github Pages. Follow the instructions below 
 6. Click Save to complete the deployment. Your live Github Pages site will now be available at the URL shown.
 
 
+### Local Development
+
 #### How to Fork
 
-Place instructions on how to fork your project here.
+To fork the Shangri-La repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, CharlieApell/shangri-la.
+3. Click the Fork button in the top right corner.
 
 #### How to Clone
 
-Place instructions on how to clone your project here.
+To clone the Shangri-La repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, CharlieApell/shangri-la.
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 ## Testing
 
-Start as you mean to go on - and get used to writing a TESTING.md file from the very first project!
-
-Testing requirements aren't massive for your first project, however if you start using a TESTING.md file from your first project you will thank yourself later when completing your later projects, which will contain much more information.
-  
-Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
+Please view my [TESTING.md](TESTING.md) file for more information on the testing undertaken.
 
 ## Credits
 
-👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
-
-The Credits section is where you can credit all the people and sources you used throughout your project.
-
 ### Code Used
 
-If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
+All of the codes used are from the LMS, w3schools and through Chrome Developer Tools.
 
 ### Content
 
-Who wrote the content for the website? Was it yourself - or have you made the site for someone and they specified what the site was to say? This is the best place to put this information.
+Content for this project was written by Charlie Apell and some of the texts are filled out with ChatGPT.
 
 ###  Media
 
-If you have used any media on your site (images, audio, video etc) you can credit them here. I like to link back to the source where I found the media, and include where on the site the image is used.
+Every image used on the website is downloaded from https://unsplash.com/s/photos/yoga
+and the video is from https://pixabay.com/videos/search/yoga/
   
 ###  Acknowledgments
 
-If someone helped you out during your project, you can acknowledge them here! For example someone may have taken the time to help you on slack with a problem. Pop a little thank you here with a note of what they helped you with (I like to try and link back to their GitHub or Linked In account too). This is also a great place to thank your mentor and tutor support if you used them.
+Much of my inspiration for this website comes, as you can see, very much from the "Love Running" project but also from the three pages Paul had in his powerpoint.
+I have also found inspiration from various students' PP1, for example Mateusz Smalarz's Ninja Ramen page and some other students yoga-pages.
+If i ever got stuck i used chrome developer tool to see how other had done their coding and/or google it.
+Otherwise i hade a lot of help from https://www.w3schools.com/
