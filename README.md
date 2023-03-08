@@ -29,11 +29,8 @@ Visit the deployed site: [Shangri-La](https://charlieapell.github.io/shangri-la/
   * [Languages Used](#languages-used)
   * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 
-* [Deployment & Local Development](#deployment--local-development)
-  * [Deployment](#deployment)
-  * [Local Development](#local-development)
-    * [How to Fork](#how-to-fork)
-    * [How to Clone](#how-to-clone)
+
+* [Deployment](#deployment)
 
 * [Testing](#testing)
 
@@ -185,26 +182,6 @@ The live website was deployed using Github Pages. Follow the instructions below 
 6. Click Save to complete the deployment. Your live Github Pages site will now be available at the URL shown.
 
 
-### Local Development
-
-#### How to Fork
-
-To fork the Shangri-La repository:
-
-1. Log in (or sign up) to Github.
-2. Go to the repository for this project, CharlieApell/shangri-la.
-3. Click the Fork button in the top right corner.
-
-#### How to Clone
-
-To clone the Shangri-La repository:
-
-1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project, CharlieApell/shangri-la.
-3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
-4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
-5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
-
 ## Testing
 
 Please view my [TESTING.md](TESTING.md) file for more information on the testing undertaken.
@@ -214,6 +191,7 @@ Please view my [TESTING.md](TESTING.md) file for more information on the testing
 ### Code Used
 
 All of the codes used are from the LMS, w3schools and through Chrome Developer Tools.
+The code for the social media in the footer was taken from Love Running.
 
 ### Content
 
