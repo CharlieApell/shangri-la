@@ -66,6 +66,7 @@ Shangri-La is a yoga place in Norrköping, Sweden. The website is built so that 
 #### Returning Visitor Goals
 
 * I want to ask a question.
+* I want to know when the next yoga lesson is.
 
 ## Design
 
@@ -73,19 +74,15 @@ Shangri-La is a yoga place in Norrköping, Sweden. The website is built so that 
 
 ### Colour Scheme
 
-Add all information about your colour scheme for your site here. You can explain why you choose the colours you did?
+I chose to work with colors that are earthy for my website because "mother nature" and Yoga go hand in hand, therefore I chose colors that went in the slightly golden/brown to more off white and black.
 
-I like to include a palette of the colour scheme here, my favourite site for creating a colour palette is [coolors](https://coolors.co/), but there are lots of other sites that also do the same thing, like [ColorSpace](https://mycolor.space/?hex=%23F5F5F5&sub=1), [Muzli Colors](https://colors.muz.li/), [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) and [Canva](https://www.canva.com/colors/color-palette-generator/) to name a few.
+![My palette for pp1](documentation/palette.png)
 
 ### Typography
 
-If you've imported fonts to use in your project, add some information about them here. You can include information like:
+Google Fonts was used to import the chosen fonts for use in the site.
 
-Why did you choose the font you have?
-Is this an accessibly friendly font?
-What weights have you included?
 
-I also like to include an image of the fonts chosen as a reference.
 
 [Google Fonts](https://fonts.google.com/) is a popular choice for importing fonts to use in your project, as it doesn't require you to download the fonts to use them.
 
