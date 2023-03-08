@@ -120,6 +120,49 @@ body {
     border-bottom: 1px solid;
 }
 
+/* meet-ups */
+
+#meet-up {
+    font-family: Lato, Arial;
+    background: url(../images/meetup.png) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+
+#meet-up div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    width: 25%;
+    height: 300px;
+    float: left;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+#meet-up h3 {
+    font-style: italic;
+    color: #fafafa;
+}
+
+#meet-up a {
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: inherit;
+}
+
+#meet-up a:hover {
+    border-bottom: 1px solid;
+}
+
+.active {
+    border-bottom: 1px solid;
+}
+
+
 /* About us */
 
 #section-info {
@@ -179,6 +222,67 @@ body {
     height: 600px;
     width: 100%;
     background: url(../images/about.jpg) no-repeat center center;
+}
+
+/* Kids Yoga */
+
+#section-yogabear {
+    padding: 20px;
+    height: 200px;
+    font-family: Lato, Arial;
+}
+
+#center-yogabear {
+    font-size: 130%;
+    color: white;
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+    background-color: darkgoldenrod;
+}
+
+#section-yogabear > div {
+    height: auto; 
+    margin: 0 auto;
+}
+
+#section-yogabear {
+    height: 550px;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 50px;
+    overflow-y: scroll;
+    padding-bottom: 20px;
+}
+
+#section-yogabear a {
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: none;
+    color: inherit;
+}
+
+#section-yogabear a:hover {
+    border-bottom: 1px solid;
+}
+
+.active {
+    border-bottom: 1px solid;
+}
+
+#center-yogabear {
+    font-family: Lato, Arial;
+    font-size: 130%;
+    color: white;
+    padding: 20px;
+    width: 60%;
+    background-color: rgba(184, 134, 11, 0.8);
+}
+
+.about-yogabear {
+    height: 600px;
+    width: 100%;
+    background: url(../images/Yogabear.jpg) no-repeat center center;
 }
 
 /* footer */
@@ -375,6 +479,11 @@ hr {
 }
 
 #section-about {
+    overflow-y: scroll;
+    padding-bottom: 20px;
+}
+
+#section-yogabear {
     overflow-y: scroll;
     padding-bottom: 20px;
 }

@@ -1,12 +1,11 @@
-# Shangri-La Yoga & Mindfulness
+# Project 1 Shangri-La Yoga & Mindfulness
 
-Shangri-La Yoga is an ficitonal yoga place, the website 
+Shangri-La is an ficitonal yoga place, the website is designed to be responsive, allowing visitors to view it on a range of devices.
 
-Add an image of the finished site here. I like to use [amiresponsive](https://ui.dev/amiresponsive) to get an image of my site on all device sizes, and amiresponsive allows you to click links on the page and scroll, so each device can show a different element of your site.
+![Shangri-La on different devices](documentation/devices.png)
 
 Add a link to the live site here, for Milestone 1 this will be the GitHub Pages Link from when you deployed the site.
 
-If you want to add optional [shields.io](https://shields.io) badges to your README, I like to add them to this section.
 
 ---
 
@@ -47,12 +46,26 @@ If you want to add optional [shields.io](https://shields.io) badges to your READ
 ---
 
 ## User Experience (UX)
+### Initial Discussion
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/Bully-Book-Club#user-experience-ux)
+Shangri-La is a yoga place in Norrköping, Sweden. The website is built so that the user can read about the yoga place on different devices and hopefully become interested and send an email about questions or membership.
 
 ### User Stories
 
-Add your user stories here. You want to include first time visitors and returning visitors here as a minimum. Think about each group, and the experience and journey you want them to have on your site. It really helps to think about this before you start coding, and will really help with creating your wireframes.
+#### Client Goals
+
+* To be able to view the site on a range of different device sizes.
+* To make it easy for potential members to find out what Yoga is and how to take part.
+* To allow people to be able to contact the Yoga Place to ask further questions.
+
+#### First Time Visitor Goals
+
+* I want to find out what is Shangri-La Yoga and how I can take part of it.
+* I want to be able to navigate the site easily to find information.
+
+#### Returning Visitor Goals
+
+* I want to ask a question.
 
 ## Design
 
