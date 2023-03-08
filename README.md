@@ -82,21 +82,24 @@ I chose to work with colors that are earthy for my website because "mother natur
 
 Google Fonts was used to import the chosen fonts for use in the site.
 
+![Lato](documentation/lato.png)
 
+https://fonts.google.com/specimen/Lato#styles
 
-[Google Fonts](https://fonts.google.com/) is a popular choice for importing fonts to use in your project, as it doesn't require you to download the fonts to use them.
+![Montez](documentation/montez.png)
+
+https://fonts.google.com/specimen/Montez
+
 
 ### Imagery
 
-Use this section to explain what sort of imagery you plan to use through your site.
+I have used stock photos from https://unsplash.com/ from different yoga places around the world
 
 ### Wireframes
 
-Add the images or links for your wireframes here.
-
-There are lots of different options to create your wireframes - Code Institute students can access [Balsamiq](https://balsamiq.com/) as part of the course.
-
-Some other options include [Figma](https://www.figma.com/), [AdobeXD](https://www.adobe.com/products/xd.html), [Sketch](https://www.sketch.com/?utm_source=google&utm_medium=cpc&adgroup=uxui&device=c&matchtype=e&utm_campaign=ADDICTMOBILE_SKETCH_GAD_DG_UK_T1_ALWAYS-ON_S_TRF_PROS_BRAND&utm_term=sketch&utm_source=google&utm_medium=cpc&utm_content=TOF_BRND__generic&hsa_acc=8710913982&hsa_cam=16831089317&hsa_grp=134620695759&hsa_ad=592060065319&hsa_src=g&hsa_tgt=kwd-14921750&hsa_kw=sketch&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjwr4eYBhDrARIsANPywCjRIFn93DMezYnsyE5Fic_8l8kynJtut0GYMU01TiohHjwziFtlH0gaAhteEALw_wcB) and [Mockup](https://apps.apple.com/us/app/mockup-sketch-ui-ux/id1527554407) to name just a few! Or you can even go old school and get those wireframes completed using pen and paper. Just snap an image of the completed wireframes to add the images to the README.
+![Wireframe pp1](documentation/Wireframe-pp1.png)
+I wanted to do a scroll down menu when browsing on either a tablet or phone but i didn't have the time to make it work,
+so I settled for a simpler approach and placed the menu below the logo when browsing on a phone or tablet.
 
 ## Features
 

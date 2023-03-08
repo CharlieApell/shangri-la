@@ -62,7 +62,7 @@ body {
 /* hero-photo */
 
 #hero-outer {
-    height: 600px;
+    height: 800px;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -73,7 +73,7 @@ body {
 }
 
 #hero-image {
-    height: 600px;
+    height: 800px;
     width: 100%;
     background: url(../images/meditate2.png) no-repeat center center;
 
@@ -100,7 +100,7 @@ body {
     width: 350px;
     padding: 20px;
     background-color:rgba(184, 134, 11, 0.7);
-    bottom: 50px;
+    bottom: 150px;
     right: 150px;
     position: absolute;
 }
@@ -186,7 +186,7 @@ body {
 }
 
 #section-about {
-    height: 550px;
+    height: 800px;
     width: 100%;
     overflow: hidden;
     padding-top: 50px;
@@ -219,7 +219,7 @@ body {
 }
 
 .about-image {
-    height: 600px;
+    height: 800px;
     width: 100%;
     background: url(../images/about.jpg) no-repeat center center;
 }
@@ -246,7 +246,7 @@ body {
 }
 
 #section-yogabear {
-    height: 550px;
+    height: 800px;
     width: 100%;
     overflow: hidden;
     padding-top: 50px;
@@ -279,7 +279,7 @@ body {
 }
 
 .yogabear-image {
-    height: 600px;
+    height: 800px;
     width: 100%;
     background: url(../images/Yogabear.jpg) no-repeat center center;
 }
@@ -365,7 +365,7 @@ form {
 }
 
 #contact-section {
-    height: 600px;
+    height: 800px;
     background: url(../images/meditate.jpg) no-repeat center center;
     width: 100%;
     overflow: hidden;
