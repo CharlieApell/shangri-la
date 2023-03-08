@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montez&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400&family=Montez&display=swap');
 
 * {
     margin: 0;
@@ -30,6 +30,7 @@ body {
 
 #menu {
     font-family: 'Lato', sans-serif;
+    font-weight: 400;
     font-size: 120%;
     letter-spacing: 4px;
     margin-right: 20px;
@@ -68,10 +69,6 @@ body {
     position: relative;
 }
 
-#cover-text, #cover-text h2 {
-    color: #fff;
-}
-
 #hero-image {
     height: 800px;
     width: 100%;
@@ -91,23 +88,28 @@ body {
     }
 }
 
+#cover-text > h3 {
+    font-weight: 300;
+    font-style: italic;
+}
+
 #cover-text {
+    color: #fff;
     font-size: 130%;
     font-family: Lato, Arial;
     letter-spacing: 4px;
-    text-align: center center;
+    text-align: center;
     height: 70px;
     width: 350px;
     padding: 20px;
-    background-color:rgba(184, 134, 11, 0.7);
+    background-color: rgba(184, 134, 11, 0.7);
     bottom: 150px;
     right: 150px;
     position: absolute;
 }
 
 #cover-text a {
-    font-style: italic;
-    font-weight: bolder;
+    font-weight: 400;
     text-decoration: none;
     color: inherit;
 }
@@ -149,7 +151,6 @@ body {
 
 #meet-up a {
     font-style: italic;
-    font-weight: bolder;
     text-decoration: underline;
     color: inherit;
 }
@@ -374,7 +375,7 @@ form {
 .contact-panel {
     color: #fff;
     font-family: Lato, Arial;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 110%;
     text-align: left;
     background-color: rgba(184, 134, 11, 0.8);
@@ -436,7 +437,6 @@ form {
 
 video {
     object-fit: contain;
-    overflow-clip-margin: content-box;
     overflow: clip;
 }
 

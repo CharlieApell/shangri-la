@@ -137,19 +137,16 @@ The website consists of five pages, with four pages available through the naviga
 
 ### Future Implementations
 
-What features would you like to implement in the future on your site? Would you like to add more pages, or create login functionality? Add these plans here.
+* Use javascript to make the menu into a burger icon when browsing on a tablet or phone
+* Add a booking page for yoga classes
 
 ### Accessibility
 
-Be an amazing developer and get used to thinking about accessibility in all of your projects!
-
-This is the place to make a note of anything you have done with accessibility in mind. Some examples include:
-
-Have you used icons and added aria-labels to enable screen readers to understand these?
-Have you ensured your site meets the minimum contrast requirements?
-Have you chosen fonts that are dyslexia/accessible friendly?
-
-Code Institute have an amazing channel for all things accessibility (a11y-accessibility) I would highly recommend joining this channel as it contains a wealth of information about accessibility and what we can do as developers to be more inclusive.
+In order to make the website as accessible-friendly as possible, I have been wary while coding and accomplished this by:
+* Using semantic HTML.
+* Using descriptive alt and aria-labels on images and video on the site.
+* I have used colors that, in contrast to each other, make it easy for the user to read the texts on the pages.
+* To make menus accessible for screen readers, I have ensured that the current page is marked.
 
 ## Technologies Used
 
@@ -157,27 +154,37 @@ Code Institute have an amazing channel for all things accessibility (a11y-access
 
 ### Languages Used
 
-Make a note here of all the languages used in creating your project. For the first project this will most likely just be HTML & CSS.
+HTML and CSS were used to create this website.
 
 ### Frameworks, Libraries & Programs Used
 
-Add any frameworks, libraries or programs used while creating your project.
+* Balsamiq - Used to create wireframes.
 
-Make sure to include things like git, GitHub, the program used to make your wireframes, any programs used to compress your images, did you use a CSS framework like Bootstrap? If so add it here (add the version used).
+* Gitpod - To code the website.
 
-A great tip for this section is to include them as you use them, that way you won't forget what you ended up using when you get to the end of your project.
+* Github - To save and store the files for the website.
 
-## Deployment & Local Development
+* Google Fonts - To import the fonts used on the website.
 
-👩🏻‍💻 View an example of a completed Deployment & Local Development section [here](https://github.com/kera-cudmore/TheQuizArms#Deployment)
+* Font Awesome - For the icons to the social media.
 
-### Deployment
+* Google Dev Tools - To test the website, solve issues with styling.
 
-Include instructions here on how to deploy your project. For your first project you will most likely be using GitHub Pages.
+* Tiny PNG To compress images.
 
-### Local Development
+* Am I Responsive? To show the website image on a range of devices.
 
-The local development section gives instructions on how someone else could make a copy of your project to play with on their local machine. This section will get more complex in the later projects, and can be a great reference to yourself if you forget how to do this.
+## Deployment
+
+The live website was deployed using Github Pages. Follow the instructions below to achieve this:
+
+1. Log in to Github (or sign up if you haven't already).
+2. Locate the repository for this project, which is named Shangri-La.
+3. Click on the Settings link.
+4. Click on the Pages link in the navigation bar on the left-hand side.
+5. In the Branch section, choose "main" from the dropdown menu and select "Root" from the dropdown menu for the folder.
+6. Click Save to complete the deployment. Your live Github Pages site will now be available at the URL shown.
+
 
 #### How to Fork
 
